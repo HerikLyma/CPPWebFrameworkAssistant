@@ -9,9 +9,11 @@ The C++ Web Framework - Assistant is a tool, under <a href="https://github.com/H
 to aid in the creation of applications using the C++ Web Framework.
 
 <br>
-<br>
-![alt text](https://github.com/HerikLyma/CPPWebFrameworkAssistant/blob/master/CPPWebFrameworkAssistant/main.png)
-<br>
+    <br>
+        <p align="center">
+          <img src="https://github.com/HerikLyma/CPPWebFrameworkAssistant/blob/master/CPPWebFrameworkAssistant/main.png"/>
+        </p>
+    <br>
 <br>
 
 <b>Site and documentation:</b> http://www.cppwebframework.com <br>
