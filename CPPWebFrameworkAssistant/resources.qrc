@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>images/logo.png</file>
+        <file>cwf/CPPWeb.ini</file>
+        <file>cwf/main.txt</file>
+        <file>cwf/pro.txt</file>
+        <file>cwf/cppwebserverpages/403.xhtml</file>
+        <file>cwf/cppwebserverpages/404.xhtml</file>
+        <file>cwf/cppwebserverpages/index.xhtml</file>
+        <file>cwf/cppwebserverpages/resources/css/cppweb.css</file>
+        <file>cwf/cppwebserverpages/resources/images/favicon.ico</file>
+        <file>cwf/cppwebserverpages/resources/images/logo.jpg</file>
+        <file>cwf/ssl/my.cert</file>
+        <file>cwf/ssl/my.key</file>
+    </qresource>
+</RCC>
