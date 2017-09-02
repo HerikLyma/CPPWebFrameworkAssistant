@@ -1,0 +1,6 @@
+Package: CWFAssistant
+Version: 1.0
+Maintainer: Herik Lima <cppwebframework@gmail.com>
+Homepage: http://www.cppwebframework.com/
+Architecture: all
+Priority: optional
