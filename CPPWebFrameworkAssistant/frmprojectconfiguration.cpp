@@ -111,8 +111,8 @@ bool FrmProjectConfiguration::createIniFile()
     content.replace("path_replace"                  , ui->lnEdtPath->text());
     content.replace("logFilePath_replace"           , ui->lnEdtLogFilePath->text());
     content.replace("indexPage_replace"             , ui->lnEdtIndexPage->text());
-    content.replace("accessCPPWebIni_replace"       , boolToString(ui->chckBxAccessCPPWebIni));
-    content.replace("accessServerPages_replace"     , boolToString(ui->chckBxAccessServerPages));
+    content.replace("accessCPPWebIni_replace"       , boolToString(ui->chckBxAccessCPPWebIni->isChecked()));
+    content.replace("accessServerPages_replace"     , boolToString(ui->chckBxAccessServerPages->isChecked()));
 
     return createFile(iniFile, content);
 }
@@ -160,8 +160,8 @@ bool FrmProjectConfiguration::copyAllFiles()
     QString qrcPagesRes = qrcPages + "/resources";
     return file.copy(":img/cwf/ssl/my.cert"   , pathTxt + "/config/ssl/my.cert")        &&
            file.copy(":img/cwf/ssl/my.key"    , pathTxt + "/config/ssl/my.key")         &&
-           file.copy(qrcPages + "/index.xhtml", pathTxt + serverPages + "/403.xhtml")   &&
-           file.copy(qrcPages + "/index.xhtml", pathTxt + serverPages + "/404.xhtml")   &&
+           file.copy(qrcPages + "/403.xhtml", pathTxt + serverPages + "/403.xhtml")   &&
+           file.copy(qrcPages + "/404.xhtml", pathTxt + serverPages + "/404.xhtml")   &&
            file.copy(qrcPages + "/index.xhtml", pathTxt + serverPages + "/index.xhtml") &&
            file.copy(qrcPagesRes + "/css/cppweb.css", pathTxt + serverPages + "/resources/css/cppweb.css")   &&
            file.copy(qrcPagesRes + "/images/logo.jpg", pathTxt + serverPages + "/resources/images/logo.jpg") &&
